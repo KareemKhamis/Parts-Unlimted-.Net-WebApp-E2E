@@ -1,7 +1,7 @@
 
 #  Project Name: 
 # Walk through Continuous Integration (CI) steps
-#  Walk through Continuous Integration (CI) steps
+#  Walk through Continuous Deployment (CD) steps:
 
 #  Project Name: 
 Parts-Unlimited .Net WebApp E2E
