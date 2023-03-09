@@ -46,6 +46,7 @@ CI Pipeline: (You can check it through the below link) https://dev.azure.com/Kar
 
  ![](assets_images/Packages.JPG)
  
- 4. The Continuous Deployment (CD) pipeline using Terraform file to provision App service on Azure, Azure SQL Server and Database using the infra package.
- 5. The terraform file will configure the resource groups, SQL DB, maintain the connection string and configure the firewall rules, Here is the link for Terraform file .......
- 6. The Continuous Deployment (CD) pipeline deployed the app package to the provisioned environment.
+ 3. The Continuous Deployment (CD) pipeline using Terraform file to provision App service on Azure, Azure SQL Server and Database using the infra package.You can check the Terraform file from this link: https://github.com/KareemKhamis/Parts-Unlimted-.Net-WebApp-E2E/blob/main/infra/websql.tf
+ 
+ 6. The terraform file will configure the resource groups, SQL DB, maintain the connection string and configure the firewall rules, Here is the link for Terraform file .......
+ 7. The Continuous Deployment (CD) pipeline deployed the app package to the provisioned environment.
