@@ -34,7 +34,7 @@ CI Pipeline build agent sequence:
 ![](assets_images/CI.JPG)
 
 
-CI Pipeline: (You can check it through the below link) https://dev.azure.com/KareemDevops2022/DevOpsCourse/_build/results?buildId=132&view=logs&j=275f1d19-1bd8-5591-b06b-07d489ea915a
+* CI Pipeline: (You can check it through this link) https://dev.azure.com/KareemDevops2022/DevOpsCourse/_build/results?buildId=132&view=logs&j=275f1d19-1bd8-5591-b06b-07d489ea915a
 
 #  Walk through Continuous Deployment (CD) steps:
 
@@ -46,7 +46,11 @@ CI Pipeline: (You can check it through the below link) https://dev.azure.com/Kar
 
  ![](assets_images/Packages.JPG)
  
- 3. The Continuous Deployment (CD) pipeline using Terraform file to provision App service on Azure, Azure SQL Server and Database using the infra package.You can check the Terraform file from this link: https://github.com/KareemKhamis/Parts-Unlimted-.Net-WebApp-E2E/blob/main/infra/websql.tf
+ 3. The Continuous Deployment (CD) pipeline using Terraform file (Infrastructure as code) to provision App service on Azure, Azure SQL Server and Database.
  
- 6. The terraform file will configure the resource groups, SQL DB, maintain the connection string and configure the firewall rules, Here is the link for Terraform file .......
- 7. The Continuous Deployment (CD) pipeline deployed the app package to the provisioned environment.
+ 4. The terraform file will configure the resource groups, SQL DB, maintain the connection string and configure the firewall rules, Here is the link for Terraform file (https://github.com/KareemKhamis/Parts-Unlimted-.Net-WebApp-E2E/blob/main/infra/websql.tf)
+ 5. The Continuous Deployment (CD) pipeline suceefully deployed the app package to the provisioned environment.As shown below:
+ 
+ ![](assets_images/AppDeployed.JPG)
+ 
+* CD Pipeline: (You can check it through this link) https://dev.azure.com/KareemDevops2022/DevOpsCourse/_releaseProgress?_a=release-environment-logs&releaseId=18&environmentId=18
