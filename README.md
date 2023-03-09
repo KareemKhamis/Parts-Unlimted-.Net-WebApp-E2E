@@ -31,6 +31,8 @@ Parts-Unlimited .Net WebApp E2EThe project is an e-commerce website for online s
 The following image shows up the used sequence on the CI Pipeline build agent sequence and the CI Pipeline
 CI Pipeline build agent sequence:
 
+![](assets_images/CI.JPG)
+
 
 CI Pipeline: (You can check it through the below link) https://dev.azure.com/KareemDevops2022/DevOpsCourse/_build/results?buildId=132&view=logs&j=275f1d19-1bd8-5591-b06b-07d489ea915a
 
