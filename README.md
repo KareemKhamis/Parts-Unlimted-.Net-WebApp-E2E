@@ -28,8 +28,7 @@ Parts-Unlimited .Net WebApp E2EThe project is an e-commerce website for online s
 4. The Continuous Integration (CI) pipeline created the application package, which contains all of the app code such as CSS, HTML, java scripts, and so on, as well as the infrastructure package, which contains all of the terraform code for the Azure environment.
 5. The Continuous Integration (CI) pipeline pushed and stored the two packages to Azure artifacts.
 
-The following image shows up the used sequence on the CI Pipeline build agent sequence and the CI Pipeline
-CI Pipeline build agent sequence:
+The following image shows up the used sequence on the CI Pipeline build agent sequence:
 
 ![](assets_images/CI.JPG)
 
@@ -60,5 +59,8 @@ CI Pipeline build agent sequence:
  
  ![](assets_images/AppDeployed.JPG)
  
+ The following image shows up the used sequence on the CD Pipeline build agent sequence:
+ 
+ ![](assets_images/CDtasks.JPG)
  
 * CD Pipeline: (You can check it through this link) https://dev.azure.com/KareemDevops2022/DevOpsCourse/_releaseProgress?_a=release-environment-logs&releaseId=18&environmentId=18
