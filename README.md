@@ -52,8 +52,13 @@ CI Pipeline build agent sequence:
  
  
  4. The terraform file will configure the resource groups, SQL DB, maintain the connection string and configure the firewall rules, Here is the link for Terraform file (https://github.com/KareemKhamis/Parts-Unlimted-.Net-WebApp-E2E/blob/main/infra/websql.tf)
- 5. The Continuous Deployment (CD) pipeline suceefully deployed the app package to the provisioned environment.As shown below:
+ 5. The Continuous Deployment (CD) pipeline suceefully deployed the app package to the provisioned environment,As shown below:
+ 
+ ![](assets_images/CD.JPG)
+ 
+ * Parts unlimited website live and reday to use,as shown below:
  
  ![](assets_images/AppDeployed.JPG)
+ 
  
 * CD Pipeline: (You can check it through this link) https://dev.azure.com/KareemDevops2022/DevOpsCourse/_releaseProgress?_a=release-environment-logs&releaseId=18&environmentId=18
