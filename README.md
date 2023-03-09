@@ -2,7 +2,7 @@
 * [Project Description](#project-description) 
 * [Services used in the project](#services-used-in-the-project) 
 * [Walk through Continuous Integration (CI) steps](#walk-through-continuous-integration-ci-steps) 
-* [Walk through Continuous Integration (CI) steps](#walk-through-continuous-integration-ci-steps) 
+* [Walk through Continuous Deployment (CD) steps](#walk-through-continuous-deployment-cd-steps) 
 #  Project Name: 
 Parts-Unlimited .Net WebApp E2E
 
