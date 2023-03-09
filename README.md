@@ -59,7 +59,7 @@ The following image shows up the used sequence on the CI Pipeline build agent se
  
  ![](assets_images/AppDeployed.JPG)
  
- The following image shows up the used sequence on the CD Pipeline build agent sequence:
+ The following image shows up the used sequence on the CD Pipeline build agent:
  
  ![](assets_images/CDtasks.JPG)
  
